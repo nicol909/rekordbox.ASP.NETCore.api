@@ -106,12 +106,41 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Microsoft.AspNetCore.App.csproj" />
+    <None Include="Microsoft.DocAsCode.Build.Engine.csproj" />
+    <None Include="Microsoft.DotNet.Analyzers.Async.csproj" />
+    <None Include="Microsoft.WindowsAzure.SDK (1).csproj" />
+    <None Include="Microsoft.WindowsAzure.SDK (2).csproj" />
+    <None Include="Microsoft.WindowsAzure.SDK (3).csproj" />
+    <None Include="Microsoft.WindowsAzure.SDK (4).csproj" />
+    <None Include="Microsoft.WindowsAzure.SDK.csproj" />
+    <None Include="Mysource.Runtime.vbproj" />
+    <None Include="nicol.Microsoft.AppCenter.csproj" />
+    <None Include="nicol.Owin.csproj" />
+    <None Include="nicoleputois0113.Owin.csproj" />
+    <None Include="nicoleputois0113.WindowsAzure.Storage.csproj" />
+    <None Include="NuGet.RuntimeModel.csproj" />
+    <None Include="package-downloader.csproj" />
+    <None Include="runtime.any.System.Text.Encoding.csproj" />
+    <None Include="System.CodeDom.csproj" />
+    <None Include="vcredist140.csproj" />
+    <None Include="VisualStudio 2019 .ts.lint.njsproj" />
+    <None Include="VisualStudio 2019 .ts.njsproj" />
+    <None Include="VisualStudio 2019.Services Project.dtproj" />
+    <None Include="VisualStudio 2019.Services Project.dtproj.user" />
+    <None Include="VisualStudio 2019ConsoleApplication1.vcxproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetOpenAuth.OpenId.Core" Version="4.3.4.13329" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.8" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.14" />
     <PackageReference Include="Microsoft.OpenApi" Version="1.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="selenium-server-standalone" Version="3.9.1.1" />
+    <PackageReference Include="slua-standalone" Version="1.0.67" />
     <PackageReference Include="Unity.AspNet.WebApi" Version="5.11.1" />
   </ItemGroup>
 

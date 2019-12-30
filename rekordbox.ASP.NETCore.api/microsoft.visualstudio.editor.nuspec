@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Editor</id>
+    <version>15.0.26606</version>
+    <title>Microsoft.VisualStudio.Editor</title>
+    <authors>Microsoft, VisualStudioExtensibility</authors>
+    <owners>Microsoft,VisualStudioExtensibility</owners>
+    <licenseUrl>https://aka.ms/pexunj</licenseUrl>
+    <projectUrl>https://aka.ms/vsextensibility</projectUrl>
+    <iconUrl>https://aka.ms/vsextensibilityicon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.Editor</description>
+    <summary>Microsoft.VisualStudio.Editor</summary>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=746387</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio Editor VSSDK</tags>
+    <dependencies>
+      <dependency id="Microsoft.VisualStudio.TextManager.Interop.8.0" version="8.0.50727" />
+      <dependency id="Microsoft.VisualStudio.OLE.Interop" version="7.10.6070" />
+      <dependency id="Microsoft.VisualStudio.TextManager.Interop" version="7.10.6070" />
+      <dependency id="Microsoft.VisualStudio.Text.UI.Wpf" version="15.0.26606" />
+      <dependency id="Microsoft.VisualStudio.Text.UI" version="15.0.26606" />
+      <dependency id="Microsoft.VisualStudio.Text.Data" version="15.0.26606" />
+      <dependency id="Microsoft.VisualStudio.Text.Logic" version="15.0.26606" />
+      <dependency id="Microsoft.VisualStudio.CoreUtility" version="15.0.26606" />
+    </dependencies>
+  </metadata>
+</package>

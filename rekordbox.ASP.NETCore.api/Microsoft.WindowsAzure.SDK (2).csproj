@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>package-downloader</id>
+    <version>1.1.1</version>
+    <authors>Microsoft Open Technologies,Inc.</authors>
+    <owners>Microsoft Open Technologies,Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/aspnet/vsweb-publish/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/aspnet/vsweb-publish/</projectUrl>
+    <description>This nuget package contains a powershell module, package-downloader.psm1, which can be used do
+      download nuget packages in powershell.</description>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <language>en-US</language>
+    <tags>powershell</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

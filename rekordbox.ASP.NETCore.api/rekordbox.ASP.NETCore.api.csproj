@@ -1,0 +1,119 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>9e645aea-64bf-4c9f-ae34-4c384ef21e3c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{13199c00-7494-11d0-8816-00a0c903b83c}">
+      <Guid>13199c00-7494-11d0-8816-00a0c903b83c</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{15199c39-b5e0-4e9d-a6f2-b69c74d02724}">
+      <Guid>15199c39-b5e0-4e9d-a6f2-b69c74d02724</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{179b730b-9f8b-4e78-92af-5f788a047ebd}">
+      <Guid>179b730b-9f8b-4e78-92af-5f788a047ebd</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{1ea4dbf0-3c3b-11cf-810c-00aa00389b71}">
+      <Guid>1ea4dbf0-3c3b-11cf-810c-00aa00389b71</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{2a005c00-a5de-11cf-9e66-00aa00a3f464}">
+      <Guid>2a005c00-a5de-11cf-9e66-00aa00a3f464</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{372fce32-4324-11d0-8810-00a0c903b83c}">
+      <Guid>372fce32-4324-11d0-8810-00a0c903b83c</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{44ec0535-400f-11d0-9dcd-00a0c90391d3}">
+      <Guid>44ec0535-400f-11d0-9dcd-00a0c90391d3</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{56a868b0-0ad4-11ce-b03a-0020af0ba770}">
+      <Guid>56a868b0-0ad4-11ce-b03a-0020af0ba770</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{66ced9ea-90cd-4010-bfa3-0b5009727741}">
+      <Guid>66ced9ea-90cd-4010-bfa3-0b5009727741</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{714dd4f6-7676-4bde-925a-c2fec2073f36}">
+      <Guid>714dd4f6-7676-4bde-925a-c2fec2073f36</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{728ab348-217d-11da-b2a4-000e7bbb2b09}">
+      <Guid>728ab348-217d-11da-b2a4-000e7bbb2b09</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{8cec5899-07a1-11d9-b15e-000d56bfe6ee}">
+      <Guid>8cec5899-07a1-11d9-b15e-000d56bfe6ee</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{91dd97e6-fd92-4dc0-ba54-7a893dd1238a}">
+      <Guid>91dd97e6-fd92-4dc0-ba54-7a893dd1238a</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{97d25db0-0363-11cf-abc4-02608c9e7553}">
+      <Guid>97d25db0-0363-11cf-abc4-02608c9e7553</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{f618c513-dfb8-11d1-a2cf-00805fc79235}">
+      <Guid>f618c513-dfb8-11d1-a2cf-00805fc79235</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="{ff9d683b-b90a-49b4-9649-f93756bad71f}">
+      <Guid>ff9d683b-b90a-49b4-9649-f93756bad71f</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetOpenAuth.OpenId.Core" Version="4.3.4.13329" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Unity.AspNet.WebApi" Version="5.11.1" />
+  </ItemGroup>
+
+
+</Project>
